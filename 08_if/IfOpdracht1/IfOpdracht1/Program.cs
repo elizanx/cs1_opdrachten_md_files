@@ -17,35 +17,35 @@ namespace IfOpdracht1
 
             if(false)//vervang false met een test of nummerA gelijk is aan nummerB
             {
-                Console.WriteLine("nummerA is gelijk aan nummerB");
+                Console.WriteLine("nummerA == nummerB");
             }
             else
             {
-                Console.WriteLine("nummerA is niet gelijk aan nummerB");//deze moet je zien
+                Console.WriteLine("nummerA != nummerB");//deze moet je zien
             }
 
 
 
             if (false)//vervang false met een test of nummerA gelijk is aan nummerC
             {
-                Console.WriteLine("nummerA is gelijk aan nummerC");//deze moet je zien
+                Console.WriteLine("nummerA == nummerC");//deze moet je zien
             }
             else
             {
-                Console.WriteLine("nummerA is niet gelijk aan nummerC");
+                Console.WriteLine("nummerA != nummerC");
             }
 
 
 
-            if (false)//vervang false met een test of nummerA + nummerC gelijk is aan nummerB
+            if (nummerA + nummerC == nummerB)//vervang false met een test of nummerA + nummerC gelijk is aan nummerB
             {
-                Console.WriteLine("nummerA+ nummerC is gelijk aan nummerB");//deze moet je zien
+                Console.WriteLine("nummerA + nummerC == nummerB");//deze moet je zien
             }
 
 
-            if (false)//vervang false met een test of nummerA NIET (!) gelijk is aan nummerB
+            if (nummerA != nummerB)//vervang false met een test of nummerA NIET (!) gelijk is aan nummerB
             {
-                Console.WriteLine("nummerA is niet gelijk aan nummerB");//deze moet je zien
+                Console.WriteLine("nummerA != nummerB");//deze moet je zien
             }
 
 
