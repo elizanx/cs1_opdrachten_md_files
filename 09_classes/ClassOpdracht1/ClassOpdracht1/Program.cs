@@ -2,28 +2,28 @@ using System;
 
 namespace ClassOpdracht1
 {
-     ???
+     //???
     //Schrijf met commentaar(//dit is commentaar) in deze file de naam bij elk onderdeel 
-    internal class ClassStructureExercise
+    internal class ClassStructureExercise //class
     {
         private readonly string accountName;
 
-        internal ClassStructureExercise(string accountName)
+        internal ClassStructureExercise(string accountName) //string
         {
-            this.accountName = accountName;
+            this.accountName = accountName; //string
+        }
+       
+        internal void ShowGreetingInConsole() //function
+        {
+            string greeting = "hello"; //string
+            Console.WriteLine(greeting + " " + accountName); //constructor
         }
 
-        internal void ShowGreetingInConsole()
+        internal void Show1To10() //function
         {
-            string greeting = "hello";
-            Console.WriteLine(greeting + " " + accountName);
-        }
-
-        internal void Show1To10()
-        {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++) //constructor
             {
-                Console.WriteLine(i.ToString());
+                Console.WriteLine(i.ToString()); 
             }
         }
 
