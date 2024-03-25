@@ -14,11 +14,12 @@ namespace FunctionOpdracht2
         }
 
         //laat deze function een 'int' teruggeven
-        private void MijnFavorietNummer()
+        private int MijnFavorietNummer()
         {
-
+            int mijnFavorieteNummer = 21;
             //maak hier een variable van het type 'int' en geef die een waarde
 
+            return mijnFavorieteNummer;
             //geef hier de variable terug
         }
 
