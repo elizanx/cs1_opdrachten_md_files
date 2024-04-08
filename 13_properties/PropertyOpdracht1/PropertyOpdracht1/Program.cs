@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace PropertyOpdracht1
 {
@@ -10,8 +11,8 @@ namespace PropertyOpdracht1
 
             Persoon persoon = new Persoon();
 
-            persoon.Naam = ?? ;//maak deze string aan als property in persoon, gebruik get set
-            persoon.Leeftijd = ?? ;//maak deze int aan als property in persoon, gebruik get set
+            persoon.Naam = "Wonbin";//maak deze string aan als property in persoon, gebruik get set
+            persoon.Leeftijd = 22 ;//maak deze int aan als property in persoon, gebruik get set
         }
     }
 }

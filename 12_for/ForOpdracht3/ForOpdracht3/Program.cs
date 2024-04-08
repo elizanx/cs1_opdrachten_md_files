@@ -18,6 +18,13 @@ namespace ForOpdracht3
             for (int i = 0; i < enemies.Length; i++)
             {
                 //als een enemy defeated = true heeft, doe dan een Console.WriteLine waar je de name laat zien en dat deze defeated is
+                Enemies mob = enemies[i];
+                Console.WriteLine(mob.name);
+                if (mob.defeated) 
+                {
+                    Console.WriteLine("mob is defeated");
+                }
+
             }
 
         }

@@ -29,7 +29,7 @@ namespace DictionaryOpdracht1
         private void WarpToRoom(string warpTo)
         {
             //haal warpTo heeft de key (Name) van de Room, gebruik die om de ROom uit de dictionary te halen
-            Room target = ???;
+            Room target = warpTo ;
             //geef this.currentRoom als waarde target
             currentRoom = ????;
             Console.WriteLine("player warped to " + currentRoom.Name);
